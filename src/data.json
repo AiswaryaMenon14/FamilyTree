@@ -67,7 +67,10 @@
         "gender": "male",
         "name":"Edi",
         "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
-        "spouses": [],
+        "spouses": [{
+            "id": "wife",
+            "type": "married"
+        }],
         "siblings": [],
         "parents": [
             {
@@ -79,6 +82,19 @@
                 "type": "blood"
             }
         ],
+        "children": []
+    },
+    {
+        "id": "wife",
+        "gender": "female",
+        "name":"Elsa",
+        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
+        "spouses": [{
+            "id": "brother",
+            "type": "married"
+        }],
+        "siblings": [],
+        "parents": [],
         "children": []
     }
 ]
