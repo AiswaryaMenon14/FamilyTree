@@ -40,7 +40,8 @@ export default React.memo(
     return (
       <div className={css.root}>
         {nodes.length > 0 && (
-          <PinchZoomPan min={0.5} max={2.5} captureWheel className={css.wrapper}>
+          // <div>
+          <PinchZoomPan min={1} max={1} captureWheel className={css.wrapper}>
             <ReactFamilyTree
               nodes={nodes}
               rootId={rootId}
@@ -59,7 +60,8 @@ export default React.memo(
                 />
               )}
             />
-          </PinchZoomPan>
+            {/* </div> */}
+           </PinchZoomPan>
         )}
         {rootId !== firstNodeId && (
           <button className={css.reset} onClick={resetRootHandler}>

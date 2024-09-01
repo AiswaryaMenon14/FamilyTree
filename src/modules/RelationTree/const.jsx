@@ -1,7 +1,7 @@
 import source from '../../data.json'
 
-export const NODE_WIDTH = 70;
-export const NODE_HEIGHT = 80;
+export const NODE_WIDTH = 300;
+export const NODE_HEIGHT = 150;
 
 
 
