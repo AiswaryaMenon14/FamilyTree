@@ -8,11 +8,11 @@
   flex: 1;
   align-items: center;
   justify-content: center;
-  border: 2px solid rgba(0, 0, 0, .2);
-  border-radius: 10px 0;
-  overflow: hidden;
+  /* border: 2px solid rgba(0, 0, 0, .2); */
+  /* border-radius: 10px 0; */
+  /* overflow: hidden; */
   cursor: pointer;
-
+  margin:10%;
 }
 
 .male {
@@ -43,8 +43,8 @@
   right: 14px;
   width: 14px;
   height: 10px;
-  border: 1px solid rgba(0, 0, 0, .2);
-  border-radius: 4px 0;
+  border: 1px solid rgba(210, 10, 10, 0.2);
+  /* border-radius: 4px 0; */
   background: #fff;
   cursor: pointer;
 }

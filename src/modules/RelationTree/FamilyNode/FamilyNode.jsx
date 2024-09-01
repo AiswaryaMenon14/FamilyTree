@@ -17,9 +17,13 @@ export const FamilyNode = React.memo(
             isRoot && css.isRoot,
             isHover && css.isHover,
           )}
-          onClick={clickHandler}
+          // onClick={clickHandler}
         >
-          <div className={css.id}>{node.id}</div>
+          {console.log(node,'node')}
+          <div className={css.id}>{node.name}</div>
+          <div style={{borderRadius:'50%',width:'20px',height:'20px',display:'flex',justifyContent:'center',overflow:'hidden'}}>
+            <img src={node.profileImg}/>
+          </div>
         </div>
         {node.hasSubTree && (
           <div

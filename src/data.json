@@ -2,6 +2,8 @@
     {
         "id": "father",
         "gender": "male",
+        "name":"Sam",
+        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
         "spouses": [{
             "id": "mother",
             "type": "married"
@@ -22,6 +24,8 @@
     {
         "id": "mother",
         "gender": "female",
+        "name":"Soya",
+        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
         "spouses": [{
             "id": "father",
             "type": "married"
@@ -42,6 +46,8 @@
     {
         "id": "sister",
         "gender": "female",
+        "name":"Sana",
+        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
         "spouses": [],
         "siblings": [],
         "parents": [
@@ -59,6 +65,8 @@
     {
         "id": "brother",
         "gender": "male",
+        "name":"Edi",
+        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
         "spouses": [],
         "siblings": [],
         "parents": [
