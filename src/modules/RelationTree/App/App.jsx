@@ -41,7 +41,8 @@ export default React.memo(
       <div className={css.root}>
         {nodes.length > 0 && (
           // <div>
-          <PinchZoomPan min={1} max={1} captureWheel className={css.wrapper}>
+          <PinchZoomPan min={1} max={5} captureWheel className={css.wrapper}>
+            
             <ReactFamilyTree
               nodes={nodes}
               rootId={rootId}
