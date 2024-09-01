@@ -1,100 +1,15 @@
 [
+     
     {
         "id": "father",
         "gender": "male",
         "name":"Sam",
         "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
-        "spouses": [{
-            "id": "mother",
-            "type": "married"
-        }],
-        "siblings": [],
-        "parents": [],
-        "children": [
-            {
-                "id": "sister",
-                "type": "blood"
-            },
-            {
-                "id": "brother",
-                "type": "blood"
-            }
-        ]
-    },
-    {
-        "id": "mother",
-        "gender": "female",
-        "name":"Soya",
-        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
-        "spouses": [{
-            "id": "father",
-            "type": "married"
-        }],
-        "siblings": [],
-        "parents": [],
-        "children": [
-            {
-                "id": "sister",
-                "type": "blood"
-            },
-            {
-                "id": "brother",
-                "type": "blood"
-            }
-        ]
-    },
-    {
-        "id": "sister",
-        "gender": "female",
-        "name":"Sana",
-        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
         "spouses": [],
         "siblings": [],
-        "parents": [
-            {
-                "id": "father",
-                "type": "blood"
-            },
-            {
-                "id": "mother",
-                "type": "blood"
-            }
-        ],
-        "children": []
-    },
-    {
-        "id": "brother",
-        "gender": "male",
-        "name":"Edi",
-        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
-        "spouses": [{
-            "id": "wife",
-            "type": "married"
-        }],
-        "siblings": [],
-        "parents": [
-            {
-                "id": "father",
-                "type": "blood"
-            },
-            {
-                "id": "mother",
-                "type": "blood"
-            }
-        ],
-        "children": []
-    },
-    {
-        "id": "wife",
-        "gender": "female",
-        "name":"Elsa",
-        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
-        "spouses": [{
-            "id": "brother",
-            "type": "married"
-        }],
-        "siblings": [],
         "parents": [],
-        "children": []
+        "children": [
+           
+        ]
     }
 ]

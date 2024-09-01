@@ -1,0 +1,150 @@
+[
+     
+    {
+        "id": "father",
+        "gender": "male",
+        "name":"Sam",
+        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
+        "spouses": [{
+            "id": "mother",
+            "type": "married"
+        }],
+        "siblings": [],
+        "parents": [],
+        "children": [
+            {
+                "id": "sister",
+                "type": "blood"
+            },
+            {
+                "id": "brother",
+                "type": "blood"
+            }
+        ]
+    },
+    {
+        "id": "mother",
+        "gender": "female",
+        "name":"Soya",
+        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
+        "spouses": [{
+            "id": "father",
+            "type": "married"
+        }],
+        "siblings": [],
+        "parents": [{
+            "id": "parent",
+            "type": "blood"
+        }],
+        "children": [
+            {
+                "id": "sister",
+                "type": "blood"
+            },
+            {
+                "id": "brother",
+                "type": "blood"
+            }
+        ]
+    },
+    {
+        "id": "sister",
+        "gender": "female",
+        "name":"Sana",
+        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
+        "spouses": [],
+        "siblings": [],
+        "parents": [
+            {
+                "id": "father",
+                "type": "blood"
+            },
+            {
+                "id": "mother",
+                "type": "blood"
+            }
+        ],
+        "children": [
+            {
+                "id": "sister-child",
+                "type": "blood"
+            }
+        ]
+    },
+    {
+        "id": "sister-child",
+        "name": "Sister Child",
+        "gender":"male",
+        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
+        "spouses": [],
+        "siblings": [],
+        "parents": [{
+            "id": "sister",
+            "type": "blood"
+        }],
+        "children": []
+    },
+    {
+        "id": "brother",
+        "gender": "male",
+        "name":"Edi",
+        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
+        "spouses": [{
+            "id": "wife",
+            "type": "married"
+        }],
+        "siblings": [],
+        "parents": [
+            {
+                "id": "father",
+                "type": "blood"
+            },
+            {
+                "id": "mother",
+                "type": "blood"
+            }
+        ],
+        "children": [{
+            "id": "ponni",
+            "type": "blood"
+        }]
+    },
+    {
+        "id": "wife",
+        "gender": "female",
+        "name": "Elsa",
+        "profileImg": "https://randomuser.me/api/portraits/men/90.jpg",
+        "spouses": [
+           {
+              "id": "brother",
+              "type": "married"
+           }
+        ],
+        "siblings": [],
+        "parents": [],
+        "children": [
+           {
+              "id": "ponni",
+              "type": "blood"
+           }
+        ]
+     },
+    {
+        "id": "ponni",
+        "gender": "female",
+        "name":"Ponni",
+        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
+        "spouses": [],
+        "siblings": [],
+        "parents": [{
+            "id": "brother",
+            "type": "blood"
+        },
+        {
+            "id": "wife",
+            "type": "blood"
+        }],
+        "children": []
+    }
+   
+]
