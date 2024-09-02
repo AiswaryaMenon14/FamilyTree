@@ -2,7 +2,7 @@
     {
         "id": "father",
         "gender": "male",
-        "name":"Sam",
+        "name":"Alan",
         "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
         "spouses": [{
             "id": "mother",
@@ -24,7 +24,7 @@
     {
         "id": "mother",
         "gender": "female",
-        "name":"Soya",
+        "name":"Bhavitha",
         "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
         "spouses": [{
             "id": "father",

@@ -22,7 +22,7 @@ export default React.memo(function Index() {
   return (
     <>
     <div style={{width:'5%',background:'#202123',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',paddingBottom:'20px'}}>
-      <Sidebar/>
+      <div style={{display:'flex',alignItems:'center',justifyContent:'center',flexGrow: 1,}}><Sidebar/></div>
       <div style={{marginTop:'auto'}}><ProfileNotification/></div>
     </div>
     <div className={css.root}>
