@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imageContainer {
+    width: 50%;
+  }
+  
+  .text {
+    color: #E9ECEFCC;
+    font-size: 11px;
+  }
+  

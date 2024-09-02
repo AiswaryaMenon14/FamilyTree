@@ -5,7 +5,10 @@ import { FamilyNode } from "../FamilyNode/FamilyNode";
 import { NODE_WIDTH, NODE_HEIGHT, DEFAULT_SOURCE } from "../const";
 import { getNodeStyle } from "./utils";
 import Header from "../../Header/index"
+import Sidebar from "../../SideBar/Index"
+
 import css from "./Index.module.css";
+import ProfileNotification from "../../../components/ProfileNotification";
 
 export default React.memo(function Index() {
   const [nodes, setNodes] = useState(DEFAULT_SOURCE);
@@ -18,7 +21,10 @@ export default React.memo(function Index() {
 
   return (
     <>
-    <div style={{width:'5%',background:'#202123'}}>1</div>
+    <div style={{width:'5%',background:'#202123',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',paddingBottom:'20px'}}>
+      <Sidebar/>
+      <div style={{marginTop:'auto'}}><ProfileNotification/></div>
+    </div>
     <div className={css.root}>
     <div><Header/></div>
 
