@@ -18,6 +18,9 @@
             {
                 "id": "brother",
                 "type": "blood"
+            }, {
+                "id": "brother2",
+                "type": "blood"
             }
         ]
     },
@@ -25,7 +28,7 @@
         "id": "mother",
         "gender": "female",
         "name":"Bhavitha",
-        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
+        "profileImg":"https://randomuser.me/api/portraits/women/65.jpg",
         "spouses": [{
             "id": "father",
             "type": "married"
@@ -40,6 +43,9 @@
             {
                 "id": "brother",
                 "type": "blood"
+            }, {
+                "id": "brother2",
+                "type": "blood"
             }
         ]
     },
@@ -47,7 +53,26 @@
         "id": "sister",
         "gender": "female",
         "name":"Sana",
-        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
+        "profileImg":"https://randomuser.me/api/portraits/women/76.jpg",
+        "spouses": [],
+        "siblings": [],
+        "parents": [
+            {
+                "id": "father",
+                "type": "blood"
+            },
+            {
+                "id": "mother",
+                "type": "blood"
+            }
+        ],
+        "children": []
+    },
+    {
+        "id": "brother2",
+        "gender": "male",
+        "name":"Eric",
+        "profileImg":"https://randomuser.me/api/portraits/men/28.jpg",
         "spouses": [],
         "siblings": [],
         "parents": [
@@ -66,7 +91,7 @@
         "id": "brother",
         "gender": "male",
         "name":"Edi",
-        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
+        "profileImg":"https://randomuser.me/api/portraits/men/20.jpg",
         "spouses": [{
             "id": "wife",
             "type": "married"
@@ -82,19 +107,42 @@
                 "type": "blood"
             }
         ],
-        "children": []
+        "children": [{
+            "id": "wifeChild1",
+            "type": "blood"
+        }]
     },
     {
         "id": "wife",
         "gender": "female",
         "name":"Elsa",
-        "profileImg":"https://randomuser.me/api/portraits/men/90.jpg",
+        "profileImg":"https://randomuser.me/api/portraits/women/11.jpg",
         "spouses": [{
             "id": "brother",
             "type": "married"
         }],
         "siblings": [],
         "parents": [],
+        "children": [ {
+            "id": "wifeChild1",
+            "type": "blood"
+        }]
+    },
+    {
+        "id": "wifeChild1",
+        "gender": "female",
+        "name":"Eva",
+        "profileImg":"https://randomuser.me/api/portraits/women/66.jpg",
+        "spouses": [],
+        "siblings": [],
+        "parents": [{
+            "id": "brother",
+            "type": "blood"
+        },
+        {
+            "id": "wife",
+            "type": "blood"
+        }],
         "children": []
     }
 ]
