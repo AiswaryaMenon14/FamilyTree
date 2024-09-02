@@ -1,5 +1,5 @@
 
-import RelationTree from './modules/RelationTree/App/App'
+import RelationTree from './modules/RelationTree/Flow/Index'
 import css from './App.module.css'
 
 function App() {
